@@ -7,7 +7,7 @@ const About = () => (
       </div>
     </div>
     <div className="row mt-2">
-      <div className="col">About</div>
+      <div className="col">Working on this...</div>
     </div>
   </div>
 );
