@@ -1,7 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import SocialIconList from "../SocialIcon/SocialIconList/SocialIconList";
+import SocialIconList from "../SocialIcon/SocialIconList/";
 import Avatar from "../../assets/img/avatar.jpg";
+import NavOptions from "./NavOptions";
+
 const Navbar = () => (
   <div>
     <div className="row mt-2">
@@ -30,7 +31,8 @@ const Navbar = () => (
     </div>
     <div className="row mt-4">
       <div className="col">
-        <NavLink
+        <NavOptions />
+        {/* <NavLink
           activeClassName="active"
           to="/"
           className="btn btn-secondary btn-block"
@@ -43,7 +45,7 @@ const Navbar = () => (
           className="btn btn-secondary btn-block"
         >
           About
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
     <div className="row mt-3 ml-1">

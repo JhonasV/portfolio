@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCardList from "../components/Project/ProjectCardList/ProjectCardList";
+import ProjectCardList from "../components/Project/ProjectCardList/";
 const Projects = () => (
   <div>
     <div className="row">

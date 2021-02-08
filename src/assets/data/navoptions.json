@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "pathname": "/",
+    "name": "Projects",
+    "show": true
+  },
+  {
+    "id": 2,
+    "pathname": "/about",
+    "name": "About",
+    "show": false
+  }
+]
